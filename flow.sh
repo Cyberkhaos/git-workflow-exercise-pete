@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # stage changes
-git _
+git add --all flow.sh
 
 # commit changes
-git _
+git commit -m 'Updated'
 
 # push changes
-git _
+git push origin main
